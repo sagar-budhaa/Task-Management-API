@@ -33,7 +33,7 @@ Before you get started, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/task-management-api.git
+git clone https://github.com/sagar-budhaa/Task-Management-API.git
 cd task-management-api
 ```
 
