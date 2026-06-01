@@ -1,0 +1,112 @@
+﻿# Build Results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+.rider/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.DotSettings
+*.DotSettings.user
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Test Results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+.nuget/
+
+# dotnet publish
+publish/
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Environment and Configuration Files (SENSITIVE)
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json.example
+!appsettings.Development.json.example
+.env
+.env.local
+.env.*.local
+
+# JWT and Secrets
+*.pem
+*.key
+*.crt
+secrets.json
+launchSettings.json
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE temporary files
+*.tmp
+*.temp
+
+# Rider temporary files
+.idea_modules/
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage reports
+coverage/
+*.coverage
+
+# Generated files
+*.generated.cs
+
+# User-specific files
+launchSettings.json
+
