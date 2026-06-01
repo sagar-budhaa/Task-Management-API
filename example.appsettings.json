@@ -1,0 +1,18 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AppSettings": {
+    "Secret": "ThisIsASecretKeyForJwtTokenGeneration",
+    "Issuer": "TaskManagementAPI",
+    "Audience": "TaskManagementAPIUsers",
+    "TokenExpirationInMinutes": 60
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=mydb;Uid=root;password"
+  },
+  "AllowedHosts": "*"
+}
