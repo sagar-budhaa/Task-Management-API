@@ -694,7 +694,7 @@ You can test the API using:
 
 ## 📝 Development Notes
 
-- All passwords are stored as plain text for simplicity (in production, use bcrypt/hashing)
+- All passwords are stored in bcrypt format for security
 - Implement rate limiting for production deployments
 - Add more comprehensive logging for debugging
 - Consider implementing soft deletes for data retention
